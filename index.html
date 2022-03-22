@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ar">
+
+<head>
+    <title>تهنئة عيد الأضحى</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/22015-notokufiarabic-regular.ttf">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row m-0">
+            <!-- input side -->
+            <div class="col-md-6">
+                <div class="right mx-auto ml-md-auto my-5">
+                    <img src="images/logo.png" alt="Logo" class="img-fluid w-50 mb-5">
+                    <h2 class="mt-5">تهنئة عيد الأضحى</h2>
+                    <p class="mt-5">الرجاء كتابة الاسم ثم اضغط تحميل التهنئة </p>
+                    <div class="nametxt">
+                        <input type="text" class="form-control mt-3" id="name">
+                        <span>&#10004;</span>
+                    </div>
+                    <button type="submit" class="mt-4" onclick="load()">تحميل التهنئة</button>
+                </div>
+            </div>
+            <!-- end of input side -->
+            <!-- card side -->
+            <div class="col-md-6">
+                <div class="left text-center mx-auto mr-md-auto my-5" id="left">
+                    <img src="images/card.jfif" alt="Logo" id="greetImg" class="img-fluid">
+                    <h5 class="name" id="imgName"></h5>
+                    <div class="copyright show" id="copyright">
+                        <small class="text-right my-3">تم التطوير بواسطة</small>
+                        <img src="images/asga.png" alt="Asgatech" class="asga-logo img-fluid mb-3" id="asgaTech">
+                    </div>
+                </div>
+            </div>
+            <!-- end of image side -->
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="py-3 d-flex justify-content-center align-items-center">
+        <div class="row">
+            <div class="col-12">
+                تم التطوير بواسطة AsgaTech
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="js/html2canvas.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

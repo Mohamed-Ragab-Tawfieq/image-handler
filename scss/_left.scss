@@ -1,0 +1,39 @@
+.left {
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 0 10px #d1d1d1;
+
+    h5 {
+        padding: 1rem;
+        position: absolute;
+        left: 0;
+        bottom: 5rem;
+        width: 100%;
+        text-align: center;
+        color: $main;
+        font-weight: bold;
+    }
+
+    .copyright {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #888;
+        bottom: 0.75rem;
+        font-weight: normal;
+        opacity: 1;
+
+        small {
+            font-size: 50% !important;
+        }
+        img {
+            width: 43%;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .copyright.show {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,52 @@
+.right {
+    h2 {
+        color: $main;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    p {
+        font-weight: normal;
+        font-size: 1.125rem;
+    }
+    .nametxt {
+        position: relative;
+        input {
+            position: relative;
+            &::after {
+                content: "&#10004;";
+            }
+            // &::placeholder {
+            //     color: #fff;
+            //     float: left;
+            //     font-weight: bold;
+            // }
+        }
+        input.onload {
+            border: 1px solid green;
+        }
+        span {
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            font-weight: bold;
+            color: green;
+            display: none;
+        }
+        span.show {
+            display: block;
+        }
+    }
+
+    button {
+        background: $main;
+        border: none;
+        border-radius: 0.25rem;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        font-weight: bold;
+        &:focus {
+            outline: 0;
+        }
+    }
+}
